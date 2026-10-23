@@ -1,0 +1,11 @@
+{
+  "name": "影阁 · 私人影库",
+  "short_name": "影阁",
+  "start_url": "/watch",
+  "display": "standalone",
+  "background_color": "#08090d",
+  "theme_color": "#08090d",
+  "icons": [
+    { "src": "/static/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

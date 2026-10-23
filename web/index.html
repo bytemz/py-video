@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover, shrink-to-fit=no">
+  <meta name="theme-color" content="#08090d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="影阁">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="app-version" content="__VERSION__">
+  <title>影阁 · 私人影库</title>
+  <link rel="icon" href="/static/favicon.svg?v=__VERSION__" type="image/svg+xml">
+  <link rel="manifest" href="/static/manifest.webmanifest?v=__VERSION__">
+  <link rel="stylesheet" href="/static/css/app.css?v=__VERSION__">
+</head>
+<body>
+  <div id="app" class="app-boot">
+    <div class="boot-screen">
+      <div class="boot-mark">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 5.6v12.8c0 .8.9 1.3 1.6.9l10-6.4a1 1 0 0 0 0-1.8l-10-6.4A1 1 0 0 0 8 5.6Z" fill="currentColor"/></svg>
+      </div>
+      <div class="boot-name">影阁</div>
+      <div class="boot-sub">正在载入影库…</div>
+    </div>
+  </div>
+  <div id="toast-root" class="toast-root" aria-live="polite"></div>
+  <script src="/static/js/common.js?v=__VERSION__"></script>
+  <script src="/static/vendor/artplayer.js?v=__VERSION__"></script>
+  <script src="/static/js/pc.js?v=__VERSION__"></script>
+  <script src="/static/js/watch.js?v=__VERSION__"></script>
+  <script>App.boot();</script>
+</body>
+</html>
